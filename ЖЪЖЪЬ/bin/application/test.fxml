@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" styleClass="oot" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.reshenie">
+   <children>
+      <AnchorPane layoutX="74.0" layoutY="78.0" prefHeight="109.0" prefWidth="353.0" style="-fx-background-radius: 10; " styleClass="op" stylesheets="@application.css">
+         <children>
+            <TextField fx:id="a" alignment="CENTER" layoutX="27.0" layoutY="38.0" prefHeight="33.0" prefWidth="38.0" promptText="A">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="b" alignment="CENTER" layoutX="148.0" layoutY="38.0" prefHeight="33.0" prefWidth="38.0" promptText="B">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="c" alignment="CENTER" layoutX="243.0" layoutY="38.0" prefHeight="33.0" prefWidth="38.0" promptText="C">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <Text layoutX="65.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" X^2 + ">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Text>
+            <Text layoutX="191.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" X + ">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Text>
+            <Text layoutX="281.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" = 0">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <Button fx:id="bton" alignment="CENTER" layoutX="84.0" layoutY="229.0" mnemonicParsing="false" onAction="#ShowDate" prefHeight="77.0" prefWidth="333.0" style="-fx-background-radius: 10;" text="Показать Ответы" textAlignment="JUSTIFY">
+         <font>
+            <Font name="Imprint MT Shadow" size="36.0" />
+         </font>
+      </Button>
+      <TextField fx:id="answer" alignment="CENTER" editable="false" layoutX="106.0" layoutY="329.0" prefHeight="61.0" prefWidth="289.0" promptText="Ответ" style="-fx-background-radius: 7;">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>
